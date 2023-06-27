@@ -1,0 +1,506 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding:0 8rem ;
+}
+header{
+    z-index: 1;
+    width: 100%;
+     padding: 13px 0;
+     position: fixed;
+     background-color: white;
+.all{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+   
+
+    
+    .right{
+        
+        .draw{
+            
+            position: relative;
+             display: inline-block;
+             margin-left: 10px;
+             &:hover{
+                .drb{
+                    opacity: 1;
+                }
+                h2{
+                    border-top: 3px solid orange;
+                }
+                
+           
+                
+            }
+             h2{
+                font-size: 1.3rem;
+               
+                padding: 25px 10px;
+                
+             }
+             .drb{
+                
+                position: absolute;
+                left:0;
+                top: 100%;
+                background-color: bisque;
+                text-align: center;
+                width: 150px;
+                opacity: 0;
+                a{
+                    display: block;
+                    margin-top: 10px;
+                    text-decoration: none;
+
+                }
+               
+             }
+        }
+
+    }
+}
+}
+
+.first{
+    background-image: url(img/beach-gf60f3813d_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30rem 0 8rem 0;
+    .text{
+
+        h2{
+            color: white;
+            span{
+                color: black;
+            }
+        }
+        p{
+            color: white;
+        }
+    }
+}
+
+.third{
+        margin: 3rem 0;
+     .all{
+
+
+       
+
+        .top{
+            text-align: center;
+            h1{
+                font-size: 32px;
+                
+            }
+            .line{
+                border: 1px solid orange;
+                margin: 10px auto;
+                width: 10%;
+            }
+            h2{
+                font-size: 2rem;
+            }
+        }
+     }
+     .bottom{
+        margin: 6rem 0;
+            .all{
+                display: flex;
+                justify-content: space-between;
+               .box{
+                width: 32%;
+                box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+
+                .top{
+                    position: relative;
+                     img{
+                        width: 100%;
+                        border-radius: 5px;
+                     }
+                    p{
+                        position: absolute;
+                        top: 20px;
+                        left:20px;
+                        color: wheat;
+                        background-color: yellow;
+                        color: black;
+                        padding: 5px 10px;
+                        border-radius: 5px;
+                    }
+                }
+                .bb{
+                    padding:0 10px;
+                  h6{
+                     opacity: 0.6;
+                     padding: 10px 0;
+                  }
+                  h3{
+                    letter-spacing: 2px;
+                     padding: 5px 0;}
+                  i{
+                    color: orange;
+                    padding: 5px 0;
+                  }
+                  i:nth-child(7)
+                  {
+                    color: black;
+                  }
+                  p{
+                    padding: 5px 0;
+                  }
+
+                    .end{
+                        padding: 5px 0;
+                          display: flex;
+                          justify-content: space-between;
+                          margin-bottom: 5px;
+                          .bir
+                          {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            a{
+                                text-decoration: none;
+                                background-color: orange;
+                                color: wheat;
+                                padding: 8px 13px ;
+                                border-radius: 25px;
+                            }
+                            i{
+                                margin: 0 2px;
+                                opacity: 0.6;
+                            }
+                              h4{
+                                 font-weight: bold;
+                                 opacity: 0.6;
+                              }
+                          }
+                          .iki{
+                            p{
+                                font-weight: bold;
+                            }
+                          }
+
+
+                    }
+                }
+            }
+            }  
+     }
+
+
+
+}
+.sub{
+    background-image: url(img/tree-g3fd30b739_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 9rem 0;
+    text-align: center;
+    .all{
+
+
+        h2{
+            color: white;
+            font-size: 32px;
+        }
+        .line{
+            border: 3px solid white;
+            margin: 20px auto;
+            width: 20%;
+            border-radius: 5px;
+            
+        }
+        h1{
+            font-size: 2rem;
+            color: white;
+            letter-spacing: 3px;
+        }
+        form{
+            input{
+                background-color: transparent;
+                margin-top: 30px;
+                width: 50%;
+                height: 40px;
+                border: 1px solid wheat;
+                color: wheat;
+                border-radius: 50px;
+                padding: 20px 30px;
+                outline: none;
+            }
+            button{
+                padding: 15px 25px;
+                margin-top: 30px;
+                margin-left: 20px;
+                border-radius: 50px;
+                border: 1px solid orange;
+                background-color: orange;
+                color: wheat;
+                &:hover{
+                    transition: .4s;
+                    background-color: transparent;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+.ser{
+    margin: 4rem 0;
+    .all{
+
+        .top{
+            text-align: center;
+             .line{
+                border: 1px solid orange;
+                margin: 10px auto;
+                width: 13%;
+             }
+             h1{
+                font-size: 2rem;
+                letter-spacing: 2px;
+             }
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            margin: 8rem 0 5rem 0;
+            .box{
+                width: 23%;
+                
+                position: relative;
+                text-align: center;
+                padding: 4rem 0 2rem 0;
+                   i{
+                    font-size: 50px;
+                    background-color: orange;
+                    color: wheat;
+                    padding: 20px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -3rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+
+
+                   }
+                p{
+                    margin: 20px 0 30px 0;
+                    opacity: 0.6;
+                }
+                a{
+                text-decoration: none;
+                background-color: orange;
+                padding:10px 20px;
+                color: wheat;
+                border-radius: 8px;
+                
+                }
+            }
+
+        }
+    }
+}
+.gallery{
+          margin:8rem 0 5rem 0;
+    .all{
+
+        .top{
+              text-align: center;
+              .line{
+                border: 1px solid orange;
+                margin: 10px auto;
+                width: 13%;
+              }
+              h1{
+                font-size: 2rem;
+                letter-spacing: 2px;
+              }
+        }
+        .bottom{
+            margin-top: 5rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+           
+             .box{
+                margin: 1rem 0;
+                  position: relative;
+                  width: 23%;
+                  &:hover{
+                      .overlay{
+                        opacity: 0.7;
+                      }
+                      .text{
+                          top: 50%;
+                          opacity: 1;
+                      }
+                  }
+                  img{
+                    width: 100%;
+                    filter: brightness(0.5);
+                    vertical-align: bottom;
+                  }
+                     .overlay{
+                        position: absolute;
+                        left:0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: #000;
+                        opacity: 0;
+                        transition: .4s;
+                       
+                     }
+                     .text{
+                        position: absolute;
+                        top: 10%;
+                        left: 50%;
+                        text-align: center;
+                        transform: translateX(-50%);
+                        color: wheat;
+                        transition: .4s;
+                        opacity: 0;
+                     }
+             }
+        }
+    }
+}
+.team{
+    .all{
+
+        .top{
+              text-align: center;
+              overflow: hidden;
+              .line{
+                border: 1px solid orange;
+                margin: 10px auto;
+                width: 13%;
+              }
+              h1{
+                font-size: 2rem;
+                letter-spacing: 2px;
+              }
+        }
+        .bottom{
+                     margin: 5rem 0;
+                     display: flex;
+                     justify-content: space-between;
+              .box{
+                width: 32%;
+                .top{
+                    position: relative;
+                     
+                     &:hover{
+                        &::before{
+                            width: 100%;
+                        }
+                        .sosial{
+                            left: 50%;
+                            transform: translateX(-50%);
+                            visibility: visible;
+                        }
+                    }
+                     img{
+                        width: 100%;
+                        vertical-align: bottom;
+                       
+                        
+                    }
+                    &::before{
+                        content: ' ';
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 0;
+                        background-color: orange;
+                        transition: .4s;
+                    }
+                    .sosial{
+                        position: absolute;
+                        top: 50%;
+                        left: -70px;
+                        visibility: hidden;
+                        transition: .2s;
+                        i{
+                            margin-left: 5px;
+                            font-size: 20px;
+                            color: wheat;
+                        }
+                    }
+               }
+               .bot{
+                     text-align: center;
+                     h3{
+                        margin-top: 20px;
+                        letter-spacing: 2px;
+                        font-size: 1.3rem;
+                     }
+                     h6{
+                        margin: 20px 0;
+                        opacity: 0.7;
+                     }
+                     p{
+                        opacity: 0.7;
+                     }
+               }
+              }
+        }
+    }
+}
+.last{
+      background-image: url(img/sunset-g94d465e22_1920.jpg);
+      background-position: center;
+      background-size: cover;
+      padding: 10rem 0;
+      background-attachment: fixed;
+    .all{
+
+        .top{
+              text-align: center;
+              overflow: hidden;
+              h4{
+                color: wheat;
+              }
+              .line{
+                border: 1px solid wheat;
+                margin: 10px auto;
+                width: 13%;
+              }
+              h1{
+                font-size: 2rem;
+                letter-spacing: 2px;
+                color: wheat;
+              }
+        }
+        .bottom{
+            text-align: center;
+            margin-top: 50px;
+              img{
+                width: 80px;
+                  height: 80px;
+                  border-radius: 50%;
+                  border: 1px solid wheat;
+                  background-color: wheat;
+                  margin-bottom: 10px;
+              }
+              h2{
+                color: wheat;
+                margin-bottom: 30px;
+              }
+              p{
+                color: wheat;
+              }
+        }
+        }
+}

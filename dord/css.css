@@ -1,0 +1,438 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 8rem;
+}
+
+header {
+  z-index: 1;
+  width: 100%;
+  padding: 13px 0;
+  position: fixed;
+  background-color: white;
+}
+header .all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .all .right .draw {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+header .all .right .draw:hover .drb {
+  opacity: 1;
+}
+header .all .right .draw:hover h2 {
+  border-top: 3px solid orange;
+}
+header .all .right .draw h2 {
+  font-size: 1.3rem;
+  padding: 25px 10px;
+}
+header .all .right .draw .drb {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: bisque;
+  text-align: center;
+  width: 150px;
+  opacity: 0;
+}
+header .all .right .draw .drb a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.first {
+  background-image: url(img/beach-gf60f3813d_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 30rem 0 8rem 0;
+}
+.first .text h2 {
+  color: white;
+}
+.first .text h2 span {
+  color: black;
+}
+.first .text p {
+  color: white;
+}
+
+.third {
+  margin: 3rem 0;
+}
+.third .all .top {
+  text-align: center;
+}
+.third .all .top h1 {
+  font-size: 32px;
+}
+.third .all .top .line {
+  border: 1px solid orange;
+  margin: 10px auto;
+  width: 10%;
+}
+.third .all .top h2 {
+  font-size: 2rem;
+}
+.third .bottom {
+  margin: 6rem 0;
+}
+.third .bottom .all {
+  display: flex;
+  justify-content: space-between;
+}
+.third .bottom .all .box {
+  width: 32%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+.third .bottom .all .box .top {
+  position: relative;
+}
+.third .bottom .all .box .top img {
+  width: 100%;
+  border-radius: 5px;
+}
+.third .bottom .all .box .top p {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: wheat;
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.third .bottom .all .box .bb {
+  padding: 0 10px;
+}
+.third .bottom .all .box .bb h6 {
+  opacity: 0.6;
+  padding: 10px 0;
+}
+.third .bottom .all .box .bb h3 {
+  letter-spacing: 2px;
+  padding: 5px 0;
+}
+.third .bottom .all .box .bb i {
+  color: orange;
+  padding: 5px 0;
+}
+.third .bottom .all .box .bb i:nth-child(7) {
+  color: black;
+}
+.third .bottom .all .box .bb p {
+  padding: 5px 0;
+}
+.third .bottom .all .box .bb .end {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.third .bottom .all .box .bb .end .bir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third .bottom .all .box .bb .end .bir a {
+  text-decoration: none;
+  background-color: orange;
+  color: wheat;
+  padding: 8px 13px;
+  border-radius: 25px;
+}
+.third .bottom .all .box .bb .end .bir i {
+  margin: 0 2px;
+  opacity: 0.6;
+}
+.third .bottom .all .box .bb .end .bir h4 {
+  font-weight: bold;
+  opacity: 0.6;
+}
+.third .bottom .all .box .bb .end .iki p {
+  font-weight: bold;
+}
+
+.sub {
+  background-image: url(img/tree-g3fd30b739_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 9rem 0;
+  text-align: center;
+}
+.sub .all h2 {
+  color: white;
+  font-size: 32px;
+}
+.sub .all .line {
+  border: 3px solid white;
+  margin: 20px auto;
+  width: 20%;
+  border-radius: 5px;
+}
+.sub .all h1 {
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 3px;
+}
+.sub .all form input {
+  background-color: transparent;
+  margin-top: 30px;
+  width: 50%;
+  height: 40px;
+  border: 1px solid wheat;
+  color: wheat;
+  border-radius: 50px;
+  padding: 20px 30px;
+  outline: none;
+}
+.sub .all form button {
+  padding: 15px 25px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 50px;
+  border: 1px solid orange;
+  background-color: orange;
+  color: wheat;
+}
+.sub .all form button:hover {
+  transition: 0.4s;
+  background-color: transparent;
+  color: black;
+}
+
+.ser {
+  margin: 4rem 0;
+}
+.ser .all .top {
+  text-align: center;
+}
+.ser .all .top .line {
+  border: 1px solid orange;
+  margin: 10px auto;
+  width: 13%;
+}
+.ser .all .top h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.ser .all .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 0 5rem 0;
+}
+.ser .all .bottom .box {
+  width: 23%;
+  position: relative;
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+.ser .all .bottom .box i {
+  font-size: 50px;
+  background-color: orange;
+  color: wheat;
+  padding: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ser .all .bottom .box p {
+  margin: 20px 0 30px 0;
+  opacity: 0.6;
+}
+.ser .all .bottom .box a {
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 20px;
+  color: wheat;
+  border-radius: 8px;
+}
+
+.gallery {
+  margin: 8rem 0 5rem 0;
+}
+.gallery .all .top {
+  text-align: center;
+}
+.gallery .all .top .line {
+  border: 1px solid orange;
+  margin: 10px auto;
+  width: 13%;
+}
+.gallery .all .top h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.gallery .all .bottom {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallery .all .bottom .box {
+  margin: 1rem 0;
+  position: relative;
+  width: 23%;
+}
+.gallery .all .bottom .box:hover .overlay {
+  opacity: 0.7;
+}
+.gallery .all .bottom .box:hover .text {
+  top: 50%;
+  opacity: 1;
+}
+.gallery .all .bottom .box img {
+  width: 100%;
+  filter: brightness(0.5);
+  vertical-align: bottom;
+}
+.gallery .all .bottom .box .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  transition: 0.4s;
+}
+.gallery .all .bottom .box .text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  color: wheat;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.team .all .top {
+  text-align: center;
+  overflow: hidden;
+}
+.team .all .top .line {
+  border: 1px solid orange;
+  margin: 10px auto;
+  width: 13%;
+}
+.team .all .top h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.team .all .bottom {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.team .all .bottom .box {
+  width: 32%;
+}
+.team .all .bottom .box .top {
+  position: relative;
+}
+.team .all .bottom .box .top:hover::before {
+  width: 100%;
+}
+.team .all .bottom .box .top:hover .sosial {
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: visible;
+}
+.team .all .bottom .box .top img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.team .all .bottom .box .top::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: orange;
+  transition: 0.4s;
+}
+.team .all .bottom .box .top .sosial {
+  position: absolute;
+  top: 50%;
+  left: -70px;
+  visibility: hidden;
+  transition: 0.2s;
+}
+.team .all .bottom .box .top .sosial i {
+  margin-left: 5px;
+  font-size: 20px;
+  color: wheat;
+}
+.team .all .bottom .box .bot {
+  text-align: center;
+}
+.team .all .bottom .box .bot h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+}
+.team .all .bottom .box .bot h6 {
+  margin: 20px 0;
+  opacity: 0.7;
+}
+.team .all .bottom .box .bot p {
+  opacity: 0.7;
+}
+
+.last {
+  background-image: url(img/sunset-g94d465e22_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10rem 0;
+  background-attachment: fixed;
+}
+.last .all .top {
+  text-align: center;
+  overflow: hidden;
+}
+.last .all .top h4 {
+  color: wheat;
+}
+.last .all .top .line {
+  border: 1px solid wheat;
+  margin: 10px auto;
+  width: 13%;
+}
+.last .all .top h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: wheat;
+}
+.last .all .bottom {
+  text-align: center;
+  margin-top: 50px;
+}
+.last .all .bottom img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid wheat;
+  background-color: wheat;
+  margin-bottom: 10px;
+}
+.last .all .bottom h2 {
+  color: wheat;
+  margin-bottom: 30px;
+}
+.last .all .bottom p {
+  color: wheat;
+}/*# sourceMappingURL=css.css.map */
